@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
         }
 
         moveHorizontal = Input.GetAxis("Horizontal");
-        if (Mathf.Abs(moveHorizontal) > 0){
+        if (Mathf.Abs(moveHorizontal) > 0  && (Input.GetKey("a") || Input.GetKey("d"))){
             Vector2 movement = new Vector2(moveHorizontal, 0);
             if (marioBody.velocity.magnitude < maxSpeed){
                 marioBody.AddForce(movement * speed);
