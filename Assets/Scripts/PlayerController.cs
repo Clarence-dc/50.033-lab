@@ -62,7 +62,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {   
         if (Input.GetKeyUp("a") || Input.GetKeyUp("d")){
-            marioBody.velocity = Vector2.zero;
+            marioBody.velocity = new Vector2(0, marioBody.velocity.y);
         }
         if (Input.GetKeyDown("space") && onGroundState){
             marioBody.AddForce(Vector2.up * upSpeed, ForceMode2D.Impulse);
