@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Obstacle
+  - Pipe
   layers:
   - Default
   - TransparentFX
@@ -13,10 +15,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - QuestionBox
+  - Obstacles
+  - Spawned
+  - TopCollider
   - 
   - 
   - 
