@@ -7127,7 +7127,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_248
+      name: hill_left
       rect:
         serializedVersion: 2
         x: 128
@@ -7148,7 +7148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_249
+      name: hill_top
       rect:
         serializedVersion: 2
         x: 144
@@ -7169,7 +7169,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_250
+      name: hill_right
       rect:
         serializedVersion: 2
         x: 160
@@ -7631,7 +7631,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_274
+      name: hill_spot1
       rect:
         serializedVersion: 2
         x: 128
@@ -7652,7 +7652,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_275
+      name: hill_mid
       rect:
         serializedVersion: 2
         x: 144
@@ -7673,7 +7673,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_276
+      name: hill_spot2
       rect:
         serializedVersion: 2
         x: 160
@@ -7689,69 +7689,6 @@ TextureImporter:
       bones: []
       spriteID: 8ad31407620f261498e4011fbb686494
       internalID: -1539338776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_277
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 288
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d01ef39731a5c741b554f7ff25cc776
-      internalID: 998671397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_278
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 288
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2a6c8d0fd463f24f9ebcdfe15c4cf05
-      internalID: -1220791374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tiles_279
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 288
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60927eb4c76c2724c9b2068d5e6ffe8a
-      internalID: 1261358843
       vertices: []
       indices: 
       edges: []
@@ -14686,6 +14623,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: bush_left
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 288
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417e1ad402b69e041ab82f0718746dbc
+      internalID: 998671397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush_mid
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c60dab26a2e2a34f9bc37c79f57c3b5
+      internalID: 1127961476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bush_right
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219d76ac089d6424da2a52e92151aab2
+      internalID: 734504209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -14698,14 +14698,13 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       tiles_464: 1415501138
-      tiles_10: 1520242022
-      tiles_310: 2003492549
+      tiles_25: -921116369
+      tiles_482: 176909229
       tiles_74: -138434076
       tiles_442: 1517692000
-      tiles_37: 1112584540
+      tiles_310: 2003492549
       tiles_112: -796131820
-      tiles_25: -921116369
-      pipe: -568456625
+      tiles_108: 804570113
       tiles_212: 541958743
       tiles_360: 1149527007
       tiles_67: 1253430226
@@ -14720,6 +14719,7 @@ TextureImporter:
       tiles_76: 445779198
       tiles_216: -731858787
       tiles_582: 1492320261
+      tiles_58: 1051293804
       tiles_6: 21300012
       tiles_91: 732030354
       tiles_269: -1966262971
@@ -14774,13 +14774,13 @@ TextureImporter:
       tiles_208: 686158292
       tiles_370: 2081932163
       tiles_205: -797111483
-      tiles_96: -672842884
       tiles_346: -749687751
+      tiles_23: 1902946736
       tiles_86: -1750511880
       tiles_326: -1181414125
       tiles_383: 1636821131
       tiles_141: -1590021528
-      tiles_23: 1902946736
+      tiles_96: -672842884
       tiles_387: -623442502
       tiles_295: -1567509873
       tiles_28: -1309425417
@@ -14794,7 +14794,7 @@ TextureImporter:
       tiles_419: 452870495
       tiles_592: -1318439500
       tiles_123: -1971828700
-      tiles_276: -1539338776
+      bush_left: 998671397
       tiles_53: 244714709
       tiles_215: -502882244
       tiles_334: 1531997809
@@ -14822,6 +14822,7 @@ TextureImporter:
       tiles_282: 1204912446
       tiles_546: -154437991
       tiles_550: -1625572012
+      hill_right: 139281801
       tiles_572: 1562894605
       tiles_472: 765505749
       tiles_570: 2053800397
@@ -14851,14 +14852,15 @@ TextureImporter:
       tiles_344: 1736022906
       tiles_506: 588262018
       tiles_165: -1412046839
-      tiles_97: -607168875
       tiles_431: 1308389970
       tiles_170: -13333836
       tiles_426: -1603840183
+      tiles_97: -607168875
       tiles_559: 1171683916
       tiles_331: -73158725
       tiles_390: -1920791709
       tiles_99: -1124243553
+      hill_left: -1074798687
       tiles_236: -1505763858
       tiles_321: 1292505041
       tiles_153: -505543206
@@ -14884,6 +14886,7 @@ TextureImporter:
       tiles_92: -1301859929
       tiles_268: -819795394
       tiles_197: -549312788
+      hill_spot2: -1539338776
       tiles_537: 1275697435
       tiles_607: 559263468
       tiles_231: -1943712739
@@ -14951,9 +14954,8 @@ TextureImporter:
       tiles_556: 2026028809
       tiles_403: -1596522467
       tiles_186: 533116243
-      tiles_249: 1379553984
-      tiles_468: 399548361
       tiles_545: 439765554
+      tiles_468: 399548361
       tiles_193: 195294174
       tiles_380: 464241463
       tiles_398: 605819362
@@ -14967,10 +14969,9 @@ TextureImporter:
       tiles_38: 763963240
       tiles_264: 1147105956
       tiles_263: -1312574025
-      tiles_275: 102063344
       tiles_424: -693526887
-      tiles_532: -637770117
       tiles_562: 1676499765
+      tiles_532: -637770117
       tiles_298: 2124069998
       tiles_432: 1759043891
       tiles_335: 393310359
@@ -15004,7 +15005,6 @@ TextureImporter:
       tiles_221: -906983737
       tiles_175: 138223499
       tiles_223: 1288748915
-      tiles_274: -2135009948
       tiles_145: 1814008498
       tiles_530: 35840323
       tiles_30: -2079643288
@@ -15012,14 +15012,15 @@ TextureImporter:
       tiles_33: -983407609
       tiles_94: -218200688
       tiles_256: 172276353
-      tiles_427: 1803079602
       tiles_81: 2108000078
+      tiles_427: 1803079602
       tiles_501: 661093560
       tiles_293: -1634520667
       tiles_27: 502226890
       tiles_124: -1291441250
       tiles_503: -1537467674
       tiles_202: 233653228
+      hill_mid: 102063344
       tiles_211: 1991870378
       tiles_87: 1156901980
       tiles_136: 1614019320
@@ -15032,20 +15033,21 @@ TextureImporter:
       tiles_225: 417505853
       tiles_593: -1576253019
       tiles_213: -1029012616
-      tiles_302: -59022113
+      tiles_359: -1482155272
       tiles_228: -42795459
       tiles_24: -1483724988
       tiles_378: 1758132624
       tiles_510: 1929952372
       tiles_290: 1157964618
-      tiles_486: 556752071
+      tiles_302: -59022113
       tiles_82: -1236326901
-      tiles_359: -1482155272
+      tiles_486: 556752071
       tiles_536: 198718059
+      tiles_568: 1722304712
       tiles_83: 1306351174
       tiles_507: 387071783
-      tiles_568: 1722304712
       tiles_560: -1428812244
+      hill_spot1: -2135009948
       tiles_210: -1602089605
       tiles_300: 1396725524
       tiles_458: 1146001656
@@ -15059,13 +15061,13 @@ TextureImporter:
       tiles_50: 1166669239
       tiles_137: -55017390
       tiles_329: -2127700151
-      tiles_250: 139281801
+      tiles_393: -1885861604
       tiles_90: 1926146467
       tiles_260: 1096508292
       tiles_60: -1850381298
       tiles_187: -211900140
       tiles_433: 1601828582
-      tiles_393: -1885861604
+      tiles_497: 1075918524
       tiles_281: 1800387537
       tiles_439: -194892471
       tiles_258: 1969524471
@@ -15074,7 +15076,6 @@ TextureImporter:
       tiles_408: 1296631528
       tiles_493: 1705614591
       tiles_227: 1765378717
-      tiles_497: 1075918524
       tiles_12: -894257027
       tiles_416: 955214429
       tiles_319: -182802279
@@ -15095,12 +15096,12 @@ TextureImporter:
       tiles_56: 1668480088
       tiles_159: 1506115767
       tiles_261: -515768331
+      bush_right: 734504209
       tiles_318: -924665543
       tiles_561: 1354977807
       tiles_151: -2128443037
       tiles_79: 763117773
       tiles_455: 1009246318
-      tiles_277: 998671397
       tiles_485: 1764372236
       tiles_397: 1062097060
       tiles_255: -1645768336
@@ -15118,6 +15119,7 @@ TextureImporter:
       tiles_17: 387941706
       tiles_218: -298967994
       tiles_409: -491932103
+      bush_mid: 1127961476
       tiles_271: 1270781415
       tiles_396: -616441174
       tiles_143: -823994929
@@ -15149,6 +15151,7 @@ TextureImporter:
       tiles_451: -226988067
       tiles_230: 354756442
       tiles_467: -159339018
+      hill_top: 1379553984
       tiles_291: -102320821
       tiles_40: 613503431
       tiles_150: 1110159011
@@ -15240,13 +15243,12 @@ TextureImporter:
       tiles_5: 21300010
       tiles_214: -117208598
       tiles_169: 520637154
-      tiles_248: -1074798687
-      tiles_299: -375724455
       tiles_371: -137017939
+      tiles_299: -375724455
+      tiles_574: -729661283
       tiles_155: 2005828992
       tiles_146: 109557741
       tiles_551: 641672593
-      tiles_574: -729661283
       tiles_434: 12155101
       tiles_100: -1772293826
       tiles_473: 77340657
@@ -15295,18 +15297,18 @@ TextureImporter:
       tiles_385: -1445308242
       tiles_15: 806269368
       tiles_126: 1099665716
-      tiles_553: -257357669
-      tiles_518: -1077212581
-      tiles_478: 565410304
       tiles_111: 1761464348
       tiles_103: 717648299
-      tiles_140: 1552276581
-      tiles_108: 804570113
-      tiles_58: 1051293804
+      tiles_478: 565410304
       tiles_529: -1440256468
-      tiles_482: 176909229
-      tiles_495: 1470638391
       tiles_490: -2100406594
+      tiles_553: -257357669
+      tiles_140: 1552276581
+      tiles_518: -1077212581
+      tiles_37: 1112584540
+      tiles_10: 1520242022
+      tiles_495: 1470638391
+      pipe: -568456625
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

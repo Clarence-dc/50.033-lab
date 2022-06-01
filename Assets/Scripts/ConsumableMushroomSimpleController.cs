@@ -14,7 +14,7 @@ public class ConsumableMushroomSimpleController : MonoBehaviour
         mushroomBody = GetComponent<Rigidbody2D>();
         // get starting position
         currentDirection = new Vector2(Random.Range(0,2)*2-1, 0);
-        mushroomBody.AddForce(Vector2.up * 20, ForceMode2D.Impulse);
+        mushroomBody.AddForce(Vector2.up * 10, ForceMode2D.Impulse);
         mushroomBody.AddForce(currentDirection * speed, ForceMode2D.Impulse);
     }
 
