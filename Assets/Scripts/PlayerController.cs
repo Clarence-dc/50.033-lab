@@ -19,17 +19,7 @@ public class PlayerController : MonoBehaviour
     private bool countScoreState = false;
     private  Animator marioAnimator;
     private AudioSource marioAudio;
-    // Called when the cube hits the floor
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.CompareTag("Ground") || col.gameObject.CompareTag("Obstacle") || col.gameObject.CompareTag("Pipe")){
-            onGroundState = true; // back on ground
-            // update onGround to match onGroundState
-            marioAnimator.SetBool("onGround", onGroundState);
-            countScoreState = false; // reset score state
-            scoreText.text = "Score: " + score.ToString();
-        }
-    }
+    private ParticleSystem dustCloud;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +29,7 @@ public class PlayerController : MonoBehaviour
         marioSprite = GetComponent<SpriteRenderer>();
         marioAnimator  =  GetComponent<Animator>();
         marioAudio = GetComponent<AudioSource>();
+        dustCloud = GetComponentInChildren<ParticleSystem>();
     }
     // Update may be called once per frame
     void Update()
@@ -104,6 +95,22 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy")){
             Debug.Log("Collided with Gomba!");
             Time.timeScale = 0.0f;
+        }
+    }
+
+    // Called when the cube hits the floor
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Ground")){
+            dustCloud.Play();
+        }
+
+        if (col.gameObject.CompareTag("Ground") || col.gameObject.CompareTag("Obstacle") || col.gameObject.CompareTag("Pipe")){
+            onGroundState = true; // back on ground
+            // update onGround to match onGroundState
+            marioAnimator.SetBool("onGround", onGroundState);
+            countScoreState = false; // reset score state
+            scoreText.text = "Score: " + score.ToString();
         }
     }
 
